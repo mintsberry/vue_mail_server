@@ -1,7 +1,8 @@
 package com.mint.vuemailserver.enums;
 
 public enum  StatusCode {
-    SUCCESS(200,"Success");
+    SUCCESS(200,"Success"),
+    LIST_EMPTY(400, "列表为空");
 
     private int status;
     private String message;
