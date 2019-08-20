@@ -3,7 +3,8 @@ package com.mint.vuemailserver.enums;
 public enum  StatusCode {
     SUCCESS(200,"Success"),
     LIST_EMPTY(400, "列表为空"),
-    NOT_FIND_NEWS(401, "未查找到该新闻");
+    NOT_FIND_NEWS(401, "未查找到该新闻"),
+    NOT_FIND_GOODS(402, "商品为空");
 
     private int status;
     private String message;
